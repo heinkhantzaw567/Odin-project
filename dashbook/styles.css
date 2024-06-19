@@ -4,14 +4,62 @@ body{
 .container
 {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 250px 1fr;
 }
 .sidebar
 {
-    background-color: lightblue;
+    background-color: rgb(62, 148, 214);
     height: 100vh;
 }
 .content
 {
     background-color: lightpink;
+}
+
+.title-container{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.dash-icon {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+   ; /* For contrast with white fill */
+   padding-left: 10px;
+ 
+}
+
+
+.title
+{
+    font-family: Roboto;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.subbar
+{
+    padding-left: 10px;
+    height: 40px;
+ 
+    display: flex;
+    align-items: center;
+}
+
+.icon
+{
+    padding-left: 10px;
+    margin-right: 20px;
+    width: 20px;
+}
+.subtitle
+{
+    font-family: Roboto;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 5px;
 }
